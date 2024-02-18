@@ -1,0 +1,50 @@
+#overlayMenu {
+  position: fixed;
+  top: 0;
+  left: -100%; /* Cache le menu en dehors de l'écran à gauche */
+  width: 300px;
+  height: 100%;
+  background-color: #FFFFFF;
+  transition: left 0.3s ease; /* Ajoute une transition fluide */
+}
+
+#overlayMenu.open {
+  left: 0; /* Affiche le menu en position 0 à gauche */
+}
+#overlayMenu.closed {
+  left: -100%; /* Position de fermeture */
+}
+
+.listemenue {
+	margin-left: 40px;
+ margin-top: 50px;
+}
+
+.marques {
+
+margin-left: 40px;
+ margin-top: 50px;
+ margin-bottom: 20px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+color: #CABA9E;
+margin-bottom: 10px;
+}
+
+.listesac {
+position: absolute;
+width: 201px;
+height: 952px;
+margin-left: 40px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 23px;
+
+color: #CABA9E;
+}

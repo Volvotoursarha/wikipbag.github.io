@@ -1,0 +1,342 @@
+
+.blocintroarticle {
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+   
+}
+
+
+
+.photoprincipalearticle{
+
+height: 426px;
+margin-left: 20px;
+margin-right: 20px;
+margin-top: 10px;
+border-radius: 40px;
+}
+
+.textebrief {
+	
+	width: 1031px;
+height: 424px;
+margin-top: 20px;
+
+background: #FFFFFF;
+border-radius: 40px;
+}
+
+.listebrief {
+		display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+
+margin-left: 40px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+}
+
+.listebrief1 li {
+  margin-bottom: 20px; /* Ajoute une marge en bas */}
+
+.Fendi_Selleria_Bag_1997 {
+	width: 460px;
+	margin-bottom: 40px;
+margin-left: 40px;
+margin-top: 20px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+
+color: #CABA9E;
+}
+
+.histoirearticle {
+	margin-top: 20px;
+	margin-right: 20px;
+	margin-left:20px;
+}
+
+.histoire {
+	margin-top: 40px;
+	margin-bottom: 20px;
+left: 31px;
+top: 628px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+
+color: #013017;
+}
+
+.historiquedescritpion {height: 116px;
+left: 31px;
+top: 692px;
+
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;}
+
+.partofCaracteristiquestechniques {
+		display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+margin-left: 0px;
+margin-top: 100px;
+background: #FFFFFF;
+border-radius: 40px;
+}
+
+.Caracteristiquestechniquestitre {
+margin-left: 37px;
+margin-top: 20px;
+margin-bottom: 10px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+
+color: #013017;
+
+}
+
+.Caracteristiquestechniquesdescritptif{
+margin-left: 37px;
+padding-right: 20px;
+font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+
+color: #000000;
+
+}
+
+.Caracteristiquestechniquespictures img {
+	margin-left: 50px;
+	margin-right: 20px;
+margin-top: 20px;
+height: 240px;
+border-radius: 40px;
+margin-bottom: 20px;
+}
+
+.Caracteristiquesdidentificationtitre {
+	margin-bottom: -10px;
+	margin-left: 20px;
+	height: 105px;
+left: 37px;
+top: 1505px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+
+color: #013017;
+
+}
+
+.Caracteristiquesdidentificationpictures{
+
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+   }
+
+.Caracteristiquesdidentificationpictures img {
+
+	width: 349px;
+height: 311px;
+left: 110px;
+top: 1610px;
+border-radius: 40px;
+margin-bottom: 20px;
+}
+
+
+.Couleursexistantespicturesone {
+		margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+   }
+
+.Couleursexistantespicturesone img {
+width: 208px;
+height: 208px;
+border-radius: 40px;
+margin-bottom: 40px;
+}
+
+
+.Couleursexistantespicturesone .image-wrapper {
+  position: relative; /* Permet de positionner le pseudo-élément */
+  display: inline-block;
+}
+
+.Couleursexistantespicturesone .image-wrapper::before {
+  content: ""; /* Nécessaire pour les pseudo-éléments */
+  position: absolute; /* Position absolue par rapport à l'élément parent */
+  top: 0;
+  left: 0;
+  width: 208px;
+height: 208px;
+  background-color: rgba(0, 0, 0, 0.25);
+	border-radius: 40px;;
+  opacity: 0; /* Par défaut, masqué */
+  transition: opacity 0.2s ease; /* Ajoute une transition fluide */
+}
+
+.Couleursexistantespicturesone .image-wrapper:hover::before {
+  opacity: 0.8; /* Rend le pseudo-élément visible au survol */
+}
+
+
+.Couleursexistantestitre {
+	margin-top: 20px;
+		margin-bottom: -10px;
+	margin-left: 20px;
+	height: 105px;
+left: 37px;
+top: 1505px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+
+color: #013017;
+}
+
+.Couleursexistantes{
+
+left: 0px;
+top: 1967px;
+
+background: #EEEEEE;
+}
+
+.modelsexistantstitre {
+	margin-top: 20px;
+		margin-bottom: -10px;
+	margin-left: 20px;
+	height: 105px;
+left: 37px;
+top: 1505px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+
+color: #013017;
+}
+
+.modelsexistantspicturesone {
+		margin-bottom: 20px;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+	display: flex;
+	flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+   }
+
+.modelsexistantspicturesone img {
+width: 208px;
+height: 208px;
+border-radius: 40px;
+margin-bottom: 40px;
+}
+
+
+.modelsexistantspicturesone .image-wrapper {
+  position: relative; /* Permet de positionner le pseudo-élément */
+  display: inline-block;
+}
+
+.modelsexistantspicturesone .image-wrapper::before {
+  content: ""; /* Nécessaire pour les pseudo-éléments */
+  position: absolute; /* Position absolue par rapport à l'élément parent */
+  top: 0;
+  left: 0;
+  width: 208px;
+height: 208px;
+  background-color: rgba(0, 0, 0, 0.25);
+	border-radius: 40px;;
+  opacity: 0; /* Par défaut, masqué */
+  transition: opacity 0.2s ease; /* Ajoute une transition fluide */
+}
+
+.modelsexistantspicturesone .image-wrapper:hover::before {
+  opacity: 0.8; /* Rend le pseudo-élément visible au survol */
+}
+
+
+.modelsexistantstitre {
+	margin-top: 20px;
+		margin-bottom: -10px;
+	margin-left: 20px;
+	height: 105px;
+left: 37px;
+top: 1505px;
+
+font-family: 'Times New Roman';
+font-style: normal;
+font-weight: 400;
+font-size: 36px;
+line-height: 41px;
+
+color: #013017;
+}
+
+.modificationtexte {
+	 float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+	margin-top: 20px;
+	font-family: 'Arial';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+text-align: right;
+
+color: #013017;
+}
